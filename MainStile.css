@@ -1,0 +1,293 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #FFFFE0, #B0C4DE);
+}
+
+.centerVideoDiv{
+    text-align: center;
+  justify-content: center;
+}
+
+.videodiv{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  padding-left: 3.3%;
+  padding-right: 2%;
+}
+
+video{
+  width: 100%;
+  height: 10%;
+  max-width: 520px;
+        object-fit: cover;
+       position: relative;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h2{
+  text-align: center;
+}
+
+h1{
+  color: white;
+}
+
+a{
+
+}
+
+p{
+  text-align: center;
+}
+
+header, footer {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  text-align: center;
+  background: linear-gradient(-45deg, #FFFFE0, #B0C4DE);
+
+    background-image: url('img/BackBlackMount.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.RegInfo{
+  font-size: 20px;
+}
+
+#about{
+  background-image: url('img/BackBlackMount.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: 350px;
+}
+
+#boardImg{
+  margin-right: 0.2%;
+  margin-left: 0.2%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.img2{
+  width: 280px;
+  margin-bottom: 2.5%;
+}
+
+.img1{
+  width: 220px;
+    margin-bottom: 4.5%;
+}
+
+.imegesDiv{
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  padding: 30px 0px;
+}
+
+section:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.UslugaAll{
+  text-align: center;
+  display: inline-block;
+  height: auto;
+  width: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.uslugboat{
+    width: 160px;
+}
+
+.Mainli{
+    font-weight: bold;
+    margin-right: 5%;
+    text-shadow: 1px 1px 1px whitesmoke, -1px -1px 1px whitesmoke;
+    font-size: 20px;
+    white-space: normal;
+}
+
+#services{
+  text-align: center;
+    background-image: url('img/BackMountian.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uslugEcsMount{
+  margin-bottom: 14%;
+}
+
+#marginMountLi{
+  margin-bottom: 64%;
+}
+
+#marginboatLi{
+  margin-bottom: 22%;
+}
+
+#marginRazvlLi{
+    margin-bottom: 50%;
+}
+
+.uslugRazvlechenia{
+    margin-bottom: 20%;
+}
+
+.HelpMount{
+    margin-bottom: 50%;
+}
+
+#contact{
+    background-image: url('img/FireBack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whitetxt{
+  color: white;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+}
+
+.gradientGallery{
+    background-image: url('img/MountGallery.jpg');
+    backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backLi{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10%;
+  font-size: 15px;
+  -webkit-text-stroke-width: 7%;
+  -webkit-text-stroke-color: black;
+  color: white;
+  letter-spacing: 2px;
+   white-space: normal;
+   width: auto;
+   height: auto;
+   background-color: rgba(0, 0, 0, 0.5);
+  /*text-stroke: 2px cyan; /* Толщина и цвет обводки (стандартное свойство) */
+}
+
+.ramka-5 {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;  
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;     
+}
+.ramka-5::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #BFE2FF;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#BFE2FF, #BFE2FF), linear-gradient(#337AB7, #337AB7), linear-gradient(#BFE2FF, #BFE2FF), linear-gradient(#337AB7, #337AB7);
+    animation: anim-ramka-5 4s linear infinite;
+}
+.ramka-5::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 6px;
+    top: 6px;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    background: white;
+    border-radius: 5px;
+}
+@keyframes anim-ramka-5 {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.MainInfoSlyle{
+  text-align: center;
+  color: white;
+  height: 350px;
+  width: 100%;
+    background-image: url('img/BackHead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+      text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+}
+
+.baldP{
+  font-weight: bold;
+}
